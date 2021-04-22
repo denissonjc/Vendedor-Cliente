@@ -1,0 +1,100 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Tempo de geração: 22-Abr-2021 às 22:27
+-- Versão do servidor: 10.4.17-MariaDB
+-- versão do PHP: 8.0.2
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `representante_cliente`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `cliente`
+--
+
+CREATE TABLE `cliente` (
+  `cli_ID` int(11) NOT NULL,
+  `cli_Nome` varchar(50) NOT NULL,
+  `cli_Telefone` varchar(15) NOT NULL,
+  `rep_ID` int(11) NOT NULL,
+  `cli_Endereco` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `representante`
+--
+
+CREATE TABLE `representante` (
+  `rep_ID` int(11) NOT NULL,
+  `rep_Nome` varchar(50) NOT NULL,
+  `rep_Telefone` varchar(15) NOT NULL,
+  `rep_Endereco` varchar(200) NOT NULL,
+  `rep_Sexo` varchar(1) NOT NULL,
+  `rep_Ativo` tinyint(1) NOT NULL,
+  `rep_Data_Inclusao` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices para tabela `cliente`
+--
+ALTER TABLE `cliente`
+  ADD PRIMARY KEY (`cli_ID`),
+  ADD KEY `rep_ID_fk` (`rep_ID`);
+
+--
+-- Índices para tabela `representante`
+--
+ALTER TABLE `representante`
+  ADD PRIMARY KEY (`rep_ID`);
+
+--
+-- AUTO_INCREMENT de tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `cliente`
+--
+ALTER TABLE `cliente`
+  MODIFY `cli_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT de tabela `representante`
+--
+ALTER TABLE `representante`
+  MODIFY `rep_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- Restrições para despejos de tabelas
+--
+
+--
+-- Limitadores para a tabela `cliente`
+--
+ALTER TABLE `cliente`
+  ADD CONSTRAINT `Relacionamento_Pedidos_Produto` FOREIGN KEY (`rep_ID`) REFERENCES `representante` (`rep_ID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

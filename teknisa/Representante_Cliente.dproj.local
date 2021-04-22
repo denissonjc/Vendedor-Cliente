@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/09 15:29:22.000.039,=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/16 09:07:49.000.817,=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/19 17:43:27.000.966,=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 11:56:21.000.884,=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 11:59:47.000.472,=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 12:01:04.000.791,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uCadastro_Representante.dfm=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/04/22 12:01:04.000.791,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uCadastro_Representante.pas=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 12:01:32.000.924,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Representante_Cliente.dproj=C:\Users\denis\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/04/22 12:02:58.000.049,=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 12:04:04.000.546,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uDM.dfm=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.dfm</Transaction>
+    <Transaction>2021/04/22 12:04:04.000.546,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uDM.pas=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 12:24:29.000.629,=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 12:25:19.000.390,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uPrincipal.pas=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 12:25:19.000.390,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uPrincipal.dfm=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.dfm</Transaction>
+    <Transaction>2021/04/22 15:25:15.000.086,=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.pas</Transaction>
+    <Transaction>2021/04/22 15:30:30.000.060,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.pas=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uCadastro_Cliente.pas</Transaction>
+    <Transaction>2021/04/22 15:30:30.000.060,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\Unit1.dfm=C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uCadastro_Cliente.dfm</Transaction>
+    <Transaction>2021/04/22 16:57:20.000.469,C:\Users\denis\OneDrive\Documentos\Delphi\teste emprego\teknisa\uDM.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
